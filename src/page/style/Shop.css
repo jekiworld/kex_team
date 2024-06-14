@@ -1,0 +1,235 @@
+.page_brand {
+  display: flex;
+  flex-direction: column;
+  height: 120vh;
+
+}
+
+.background {
+  height: 230px;
+  position: fixed;
+  z-index: -1;
+  width: var(--chakra-sizes-full);
+
+
+}
+
+.brand_im {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: right center;
+  color: transparent;
+}
+
+.back {
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: black;
+}
+
+.list_of_food {
+  position: absolute;
+  height: 300%;
+  width: 100%;
+  top: 200px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: white;
+  padding: 24px 16px;
+}
+
+
+
+.name_of_company {
+  /* border: solid; */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border-bottom: rgb(231, 231, 231) solid 1px;
+  padding-bottom: 12px;
+}
+
+#name_brand {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#description {
+  animation: auto ease 0s 1 normal none running none;
+  font-size: 14px;
+  line-height: 125%;
+  color: rgba(0, 0, 0, 0.498);
+}
+
+.category-button {
+  display: flex;
+  background-color: #f0f0f0;
+  /* Цвет фона по умолчанию */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  /* Плавное изменение фона */
+  color: black;
+  /* Цвет текста по умолчанию */
+  border-radius: 20px;
+  /* Скругление углов */
+  font-size: 13px;
+  background: rgb(231, 231, 231);
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+}
+
+#text_category {
+  margin: 5px 10px;
+}
+
+.category-button.active {
+  background-color: rgb(140, 86, 248);
+  /* Цвет фона при активации */
+  color: white;
+  /* Цвет текста при активации */
+}
+
+.sticky-header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 10px;
+  z-index: 1000;
+  height: 60px; 
+}
+
+.back-button {
+  margin-right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.category {
+  position: sticky;
+  top: 60px; 
+  z-index: 100; 
+  background-color: white;
+  margin-top: 7%;
+  padding-bottom: 2%;
+
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  overflow-x: auto;
+  justify-content: flex-start;
+  align-items: center;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+
+.cat_list {
+  margin-top: -4%;
+  text-align: left;
+}
+
+
+.cat_list h2 {
+  margin-top: 9%;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.container3 {
+  height: max-content;
+}
+
+.dish-item {
+  width: 170px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  align-items: left;
+  padding: 6px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dish-image {
+  width: 100%;
+  /* Ширина изображения */
+  height: 110px;
+  /* Высота изображения */
+  object-fit: cover;
+  /* Растягивание изображения для заполнения блока */
+  border-radius: 10px;
+}
+
+.dish-item h3 {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.dish-item #des {
+  color: rgba(0, 0, 0, 0.298);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--chakra-line-clamp);
+  --chakra-line-clamp: 2;
+  font-size: 10px;
+}
+
+.dish-item #price {
+  font-size: 14px;
+  line-height: 125%;
+  font-weight: 500;
+  margin-top: auto;
+  padding-inline: 5px;
+}
+
+.button-add {
+  width: 100%;
+  background-color: rgb(140, 86, 248);
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dish {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill, 169px);
+  scroll-margin-top: 200px;
+  place-content: center;
+  
+}
+
+
+
+@media (max-width: 1170px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {
+
+  .back {
+    min-height: 39px;
+    position: absolute;
+    top: 50px;
+    left: 21px;
+    min-width: 39px;
+    background-color: white;
+
+  }
+}

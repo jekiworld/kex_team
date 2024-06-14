@@ -1,0 +1,47 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background-color: #f7fafc; /* equivalent to bg="gray.100" */
+    padding: 16px; /* equivalent to p={4} */
+    background-color: white;
+}
+
+.register-box {
+    background-color: white;
+    /* padding: 24px; equivalent to p={6} */
+    /* border-radius: 8px; equivalent to rounded="md" */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); equivalent to shadow="md" */
+    width: 90%;
+    max-width: 400px;
+    margin-top: 50%;
+}
+
+.register-form {
+    width: 100%;
+}
+
+.forgot {
+    text-align: center;
+    margin-top: 54%;
+}
+
+.logo {
+    margin-left: 70%;
+    margin-top: 7%;
+}
+
+.register-box{
+margin-top: 20%;
+}
+
+.name_surn{
+    display: flex;
+    gap: 12px;
+}
+
+.but_con{
+    color: white;
+}

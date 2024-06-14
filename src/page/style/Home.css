@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    overflow-y: auto;
+}
+
+.header {
+    position: fixed;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    z-index: 2; 
+}
+
+.img_logo_home {
+    width: 100px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.container_home {
+    padding: 1rem;
+    margin-top: 14%;
+}
+
+.block_bonus {
+    background-image: linear-gradient(rgba(140, 86, 248, 0.5) 0%, rgb(140, 86, 248) 100%);
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 1rem;
+    height: 110px;
+    text-align: left;
+    z-index: 1; 
+}
+
+#h2 {
+    font-family: var(--chakra-fonts-heading);
+    font-weight: var(--chakra-fontWeights-bold);
+    line-height: 1.33;
+    font-size: var(--chakra-fontSizes-2xl);
+}
+
+#span {
+    text-decoration: underline;
+}
+
+#p {
+    color: white;
+}
+
+.stories {
+    overflow-y: auto;
+}
+
+.stories-container {
+    display: flex;
+    padding: 1rem;
+    gap: 16px;
+}
+
+.story {
+    position: relative;
+    max-width: 400px;
+    height: 300px;
+    width: 100%;
+}
+
+.chakra-skeleton {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.menu {
+    padding: 1rem;
+}
+
+.menu_h2 {
+    font-size: 22px;
+    font-family: var(--chakra-fonts-heading);
+    font-weight: var(--chakra-fontWeights-bold);
+    line-height: 1.33;
+}
+
+.comp_img {
+    margin-top: 3%;
+}
+
+.img_comp {
+    object-fit: fill;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    background-color: white;
+    border-top: 1px solid rgb(225, 225, 225);
+    align-items: center;
+    padding: 1rem;
+}
+
+.icon_home, .icon_zakazy, .icon_profile {
+    padding: 16px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+
+.icon_zakazy {
+    margin-left: 28%;
+}
+
+.icon_profile {
+    margin-left: 27%;
+}
+
+.icon_home_svg {
+    width: var(--chakra-sizes-4);
+    height: var(--chakra-sizes-4);
+    color: #8C56F8;
+}
+
+.close_button{
+    z-index: 4;
+}
+
+@media (max-width: 1170px) {
+    .header {
+        height: 60px;
+    }
+
+    .img_logo_home {
+        width: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 50px;
+    }
+
+    .img_logo_home {
+        width: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        height: 70px;
+    }
+
+    .img_logo_home {
+        width: 100px;
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+
+    .block_bonus {
+        margin-top: 4%;
+    }
+
+    .stories-container {
+        padding: 1rem;
+        gap: 4px;
+        overflow-y: auto;
+    }
+
+    .story {
+        height: 182px;
+        width: 100%;
+    }
+
+    .chakra-skeleton {
+        border: 2px solid gray;
+        border-radius: 15px;
+        padding: 5px;
+    }
+
+    .nav {
+        height: 70px;
+    }
+
+    .icon_home, .icon_zakazy, .icon_profile {
+        padding: 10px;
+    }
+
+    #icon_main {
+        font-size: var(--chakra-fontSizes-xs);
+    }
+}

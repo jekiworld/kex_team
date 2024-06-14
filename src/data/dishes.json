@@ -1,0 +1,78 @@
+{
+  "Чизбургеры": [
+    {
+      "name": "Чизбургер MIX",
+      "description": "Микс говяжьей и куриной котлет, в сочетании с соусом...",
+      "price": 1700,
+      "image": "https://www.kex.team/_next/image?url=https%3A%2F%2F102922.selcdn.ru%2Fnomenclature_images_test%2F2421992%2Fa67cee5b-06fe-4898-8876-970e6360b603.jpg&w=640&q=60"
+    },
+    {
+      "name": "Чизбургер MIX",
+      "description": "Микс говяжьей и куриной котлет, в сочетании с соусом...",
+      "price": 1700,
+      "image": "https://www.kex.team/_next/image?url=https%3A%2F%2F102922.selcdn.ru%2Fnomenclature_images_test%2F2421992%2Fa67cee5b-06fe-4898-8876-970e6360b603.jpg&w=640&q=60"
+    },
+    {
+      "name": "Чизбургер MIX",
+      "description": "Микс говяжьей и куриной котлет, в сочетании с соусом...",
+      "price": 1700,
+      "image": "https://www.kex.team/_next/image?url=https%3A%2F%2F102922.selcdn.ru%2Fnomenclature_images_test%2F2421992%2Fa67cee5b-06fe-4898-8876-970e6360b603.jpg&w=640&q=60"
+    }
+  ],
+  "Гамбургеры": [
+    {
+      "name": "Гамбургер классический",
+      "description": "Классический гамбургер с сочной котлетой из говядины...",
+      "price": 1500,
+      "image": "https://www.kex.team/_next/image?url=https%3A%2F%2F102922.selcdn.ru%2Fnomenclature_images_test%2F2421992%2Fa67cee5b-06fe-4898-8876-970e6360b603.jpg&w=640&q=60"
+    }
+  ],
+  "Хот-доги": [
+    {
+      "name": "Хот-дог классический",
+      "description": "Классический хот-дог с горчицей, кетчупом и маринованными огурчиками.",
+      "price": 1200,
+      "image": "https://www.kex.team/_next/image?url=https%3A%2F%2F102922.selcdn.ru%2Fnomenclature_images_test%2F2421992%2Fa67cee5b-06fe-4898-8876-970e6360b603.jpg&w=640&q=60"
+    }
+  ],
+  "Комбо": [
+    {
+      "name": "Комбо 'Большой аппетит'",
+      "description": "Гамбургер классический, картофель фри и Coca-Cola 0.5л.",
+      "price": 2500,
+      "image": "ссылка_на_изображение"
+    }
+  ],
+  "Стартеры": [
+    {
+      "name": "Картофель фри",
+      "description": "Хрустящие кусочки картофеля, поджаренные до золотистой корочки.",
+      "price": 800,
+      "image": "ссылка_на_изображение"
+    }
+  ],
+  "Напитки": [
+    {
+      "name": "Coca-Cola 0.5л",
+      "description": "Прохладительный газированный напиток.",
+      "price": 500,
+      "image": "ссылка_на_изображение"
+    }
+  ],
+  "Соусы": [
+    {
+      "name": "Соус 'Барбекю'",
+      "description": "Пикантный соус на основе томатов с дымным вкусом.",
+      "price": 150,
+      "image": "ссылка_на_изображение"
+    }
+  ],
+  "Десерты": [
+    {
+      "name": "Шоколадный маффин",
+      "description": "Нежный шоколадный маффин с кусочками шоколада.",
+      "price": 1000,
+      "image": "ссылка_на_изображение"
+    }
+  ]
+}
